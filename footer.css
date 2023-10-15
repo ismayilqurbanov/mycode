@@ -1,0 +1,721 @@
+
+/*.img{
+  position: relative;
+  background-image: url(https://www.mesonft.ru/images/slide01.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height:100vh;
+}
+
+
+.black::before{
+  content: "";
+  position: absolute;
+  width: 65%;
+  height: 125%;
+  top: -15%;
+  left: -15%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  transform: rotate(10deg);
+}
+.height{
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 4;
+  position:absolute;
+}
+.circle2{
+  border:1px solid #fff;
+  width: 320px;
+  height:300px;
+  border-radius: 300px;
+  position:absolute;
+  z-index: 3;
+ margin-top:180px ;
+  animation: men 5s linear infinite;
+
+}
+@keyframes  men{
+  0%{transform: rotateZ(0);}
+  100%{transform: rotateZ(-360deg);}
+
+}
+.circle3{
+  border:1px solid #fff;
+  width: 310px;
+  height:300px;
+  border-radius: 300px;
+  position:absolute;
+  z-index: 3;
+  margin-top: 180px;
+ 
+  animation: logo 5s linear infinite;
+}
+.circle{
+  border:1px solid #fff;
+  width: 300px;
+  height:300px;
+  border-radius: 300px;
+  margin-top: 180px;
+
+  position:absolute;
+  z-index: 3;
+  animation: logo 5s linear infinite;
+}
+
+
+@keyframes logo{
+  0%{transform: rotateZ(0);}
+  100%{transform: rotateZ(360deg);}
+
+}
+.text{
+  position:absolute;
+  z-index: 3;
+  margin-top:220px;
+  margin-left: 60px;
+  color: #fff;
+
+}
+.text2{
+  position:absolute;
+  z-index: 3;
+  margin-top:260px;
+  margin-left: 80px;
+  color: #fff;
+
+}
+.text3{
+  position:absolute;
+  z-index: 3;
+  margin-top:360px;
+  margin-left: 70px;
+  color: grey;
+}
+.button{
+  position:absolute;
+  right: 0;
+  z-index: 3;
+  margin-top: 40px;
+  margin-right: 30px;
+  border-radius: 190px;
+  width: 120px;
+  background-color: #dd9044;
+  color:#fff;
+  height: 35px;
+
+}
+.min-height-170{
+  min-height: 170px;
+  position: relative;
+  bottom:40px;
+  z-index: 5;
+}
+.bg-grey{
+  background-color:red;
+}
+
+
+.no-meyin{
+  padding-left: 0;
+  padding-right: 0;
+}
+.searc h2{
+  font-weight: 700;
+}
+.margin{
+  font-weight: 700;
+
+}
+.img2{   
+  position: relative;
+  background-image: url(https://salam.az/assets/images/bg/bg-what-we-can.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+.border-left-5{
+  border-left:5px solid red;
+  height: 80px;
+ 
+}
+.img2{
+border-radius: 200px;
+}
+.fa-play-circle {
+  margin-bottom:280px ;
+  margin-left: 290px;
+}
+.positioon{
+  border-radius: 200px;
+  position:absolute;
+   right: 40px;
+   margin-top:70px;
+
+}
+.witdh{
+  padding-top:20px;
+}
+.meyin{
+   width: 300px;
+   height:450px;
+   border:5px solid #fff;
+   background-color: #fff;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05), 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+.meyin2{
+  width: 300px;
+  height:450px;
+  border:5px solid #FFF;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05), 0 1px 4px rgba(0, 0, 0, 0.05);
+
+
+}
+.meyin3{
+  width: 300px;
+  height:450px;
+  border:5px solid  #fff;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05), 0 1px 4px rgba(0, 0, 0, 0.05);
+
+
+}
+.main-3{
+  width: 150px;
+  border-radius: 100px;
+  background-color: #dd9044;
+  color:#fff;
+  cursor: pointer;
+}
+.fa-spin{
+margin-left:200px;
+}
+.section .fa-spin{
+  position:absolute;
+  margin-top: 530px;
+  margin-left:0;
+  font-size: 250px;
+  opacity: 0.1;
+  
+}
+.form{
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  background: rgba(254, 90, 14, 0.18);
+  overflow: hidden;
+  width:318px;
+  height:40px;
+  transition: all 0.3s;
+}
+.sect:hover .form {
+  bottom:0;
+  height:470px;
+}
+.form2{
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  background: rgba(254, 90, 14, 0.18);
+  overflow: hidden;
+  width:318px;
+  height:40px;
+  transition: all 0.3s;
+}
+.mez2:hover  .form2{
+  bottom:0;
+  height:470px ;
+}
+.form3{
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  background: rgba(254, 90, 14, 0.18);
+  overflow: hidden;
+  width:318px;
+  height:40px;
+  transition: all 0.3s;
+}
+.mez3:hover  .form3{
+  bottom:0;
+  height:470px ;
+}
+
+
+.servir2{
+ margin-top: 20px;
+ margin-left: 45px;
+  
+}
+
+.footer{
+  background-color: black;
+  width:100%;
+  height: 60vh;
+  color:#FFF;
+}
+
+.mwen{
+  width: 400px;
+  height: 500px;
+  border:5px solid red;
+  position:relative;
+  BOTTOM:30PX;
+  z-index: 1111;
+  background-color: #FFF;
+}
+.footer2{
+ margin-top:50px;
+}*/
+
+
+
+.img{
+  position: relative;
+  background-image: url(https://www.mesonft.ru/images/slide01.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height:100vh;
+}
+
+
+.black::before{
+  content: "";
+  position: absolute;
+  width: 65%;
+  height: 125%;
+  top: -15%;
+  left: -15%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  transform: rotate(10deg);
+}
+.height{
+ width: 100%;
+ height: 100vh;
+  background-color: #fff;
+  z-index: 4;
+  position:absolute;
+}
+.circle2{
+  border:1px solid #fff;
+  width: 320px;
+  height:300px;
+  border-radius: 300px;
+  position:absolute;
+  z-index: 3;
+ margin-top:180px ;
+  animation: men 5s linear infinite;
+
+}
+@keyframes  men{
+  0%{transform: rotateZ(0);}
+  100%{transform: rotateZ(-360deg);}
+
+}
+.circle3{
+  border:1px solid #fff;
+  width: 310px;
+  height:300px;
+  border-radius: 300px;
+  position:absolute;
+  z-index: 3;
+  margin-top: 180px;
+ 
+  animation: logo 5s linear infinite;
+}
+.circle{
+  border:1px solid #fff;
+  width: 300px;
+  height:300px;
+  border-radius: 300px;
+  margin-top: 180px;
+
+  position:absolute;
+  z-index: 3;
+  animation: logo 5s linear infinite;
+}
+
+
+@keyframes logo{
+  0%{transform: rotateZ(0);}
+  100%{transform: rotateZ(360deg);}
+
+}
+.text{
+  position:absolute;
+  z-index: 3;
+  margin-top:220px;
+  margin-left: 60px;
+  color: #fff;
+
+}
+.text2{
+  position:absolute;
+  z-index: 3;
+  margin-top:260px;
+  margin-left: 80px;
+  color: #fff;
+
+}
+.text3{
+  position:absolute;
+  z-index: 3;
+  margin-top:360px;
+  margin-left: 70px;
+  color: grey;
+}
+.button{
+  position:absolute;
+  right: 0;
+  z-index: 3;
+  margin-top: 40px;
+  margin-right: 30px;
+  border-radius: 190px;
+  width: 120px;
+  background-color: #dd9044;
+  color:#fff;
+  height: 35px;
+
+}
+.img2{   
+  position: relative;
+  background-image: url(https://salam.az/assets/images/bg/bg-what-we-can.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+.border-left-5{
+  border-left:5px solid red;
+  height: 80px;
+ 
+}
+.img2{
+border-radius: 200px;
+}
+.fa-play-circle {
+  margin-bottom:280px ;
+  margin-left: 290px;
+}
+.positioon{
+  border-radius: 200px;
+  border:5px solid #fff;
+}
+.margin{
+  margin-top:320px;
+  position: absolute;
+   right:60px;
+
+ 
+}
+.fa-play-circle {
+  margin-bottom:280px ;
+  margin-left: 290px;
+}
+
+.meyin{
+   width: 300px;
+   height:450px;
+   border:5px solid #fff;
+   background-color: #fff;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05), 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+.main-3{
+  width: 150px;
+  border-radius: 100px;
+  background-color: #dd9044;
+  color:#fff;
+  cursor: pointer;
+}
+
+.menu-text{
+  margin-right: 600px;
+
+}
+.form{
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  background: rgba(254, 90, 14, 0.18);
+  overflow: hidden;
+  width:318px;
+  height:40px;
+  transition: all 0.3s;
+}
+.sect:hover .form {
+  bottom:0;
+  height: 100%;
+}
+
+.fa-spin{
+position:relative;
+
+
+  }
+  .section .fa-spin{
+    position:absolute;
+    margin-top: 530px;
+    margin-left:0;
+    font-size: 250px;
+    opacity: 0.1;
+    
+  }
+  .meyin2{
+    width: 300px;
+    height:450px;
+    border:5px solid #FFF;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05), 0 1px 4px rgba(0, 0, 0, 0.05);
+  
+  
+  }
+  .meyin3{
+    width: 300px;
+    height:450px;
+    border:5px solid  #fff;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05), 0 1px 4px rgba(0, 0, 0, 0.05);
+  
+  
+  }
+  .main-3{
+    width: 150px;
+    border-radius: 100px;
+    background-color: #dd9044;
+    color:#fff;
+    cursor: pointer;
+  }
+  .form{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(254, 90, 14, 0.18);
+    overflow: hidden;
+    width:318px;
+    height:40px;
+    transition: all 0.3s;
+  }
+  .sect:hover .form {
+    bottom:0;
+    height:470px;
+  }
+  .form2{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(254, 90, 14, 0.18);
+    overflow: hidden;
+    width:318px;
+    height:40px;
+    transition: all 0.3s;
+  }
+  .mez2:hover  .form2{
+    bottom:0;
+    height:470px ;
+  }
+  .form3{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(254, 90, 14, 0.18);
+    overflow: hidden;
+    width:318px;
+    height:40px;
+    transition: all 0.3s;
+  }
+  .mez3:hover  .form3{
+    bottom:0;
+    height:470px;
+    }
+    .server .server2{
+      margin-left: 20px;
+    }
+    .test{
+      margin-left:200px;
+    }
+    .bez{
+     
+     width: 250px;
+     height: 180px;
+      background-color:#fe5a0e;
+     margin-bottom: 530px;
+     margin-left: 25px;
+     
+      z-index: 15;
+      color:#ffff;
+      position:relative;
+      bottom:30px;
+    }
+    .kruq img{
+      position: absolute;
+      margin-top: -30px;
+      margin-left: -30px;
+      display: inline-block;
+      padding: 10px;
+      background: #fff;
+      border-radius: 50%;
+      z-index: 11;
+
+    }
+   
+   .kar-5 :hover img{
+    transition: all 3s;
+    transform: scale(1.1);
+   }
+   .footer{
+    position: relative;
+    background: #2a2a2a;
+    overflow: hidden;
+    margin-top: 100px;
+  
+   }
+   .border-main{
+    border:5px solid #fe5a0e;
+   }
+   .font-45{
+    font-size: 45px;
+   }
+   .animated{
+    border-radius: 100px;
+   }
+   .box-swadov{
+    border-radius:100px;
+    background-color:#dd9044;
+    color:#fff;
+    width: 100px;
+   }
+   .border-red{
+    margin-top:-100px;
+    position:relative;
+    z-index: 11111;
+   }
+   textarea {
+    height: auto;
+}
+.list-style{
+  color:#fff;
+  float: left;
+  list-style: none;
+}
+.list-style  a{
+  text-decoration: none;
+  color:#fff;
+  
+}
+.list-style i{
+  font-size: 25px;
+}
+.text-meyin {
+  background-color:#fff;
+  
+  
+}
+.maril{
+  margin-top: -50px;
+}
+
+.mayin-text{
+  background-color: #fe5a0e;
+  color:white;
+  margin-left:-30px;
+
+}
+.mayn-text{
+  background-color: black;
+  color:white;
+  margin-left:-55px;
+
+} 
+.nomer{
+  font-size: 14px;
+}
+.menu-4{
+ border-style:none;
+}
+ .menu-9{
+  position: relative;
+  z-index: 100;
+ }
+
+ .mini-height-170{
+  min-height:170px;
+ }
+ .navbar {
+  position: fixed !important;
+  top: 0;
+  z-index: 1000000000000000300000000000;
+  box-shadow: 0 0 15px #b1b1b159;
+  height: 70px;
+  width: 100%;
+
+
+}
+.font-33{
+  color:red;
+  font-size:33px;
+}
+ 
+  
+@media (max-width:991px){
+ 
+ .mayin-text{
+  margin-top:51px;
+  position:relative;
+  left:25px;
+  margin-left:0px ;
+ 
+}
+
+.mayn-text{
+  margin-top:52px;
+  position:relative;
+  left:25px;
+  margin-left:0px ;
+
+} 
+.text-meyin {
+  margin-left:24px ;
+
+  
+  
+}
+
+.border-main{
+  margin-top:50px;
+ }
+ .list-style{
+  margin-left:215px;
+}
+
+.verek2{
+  display: none;
+}
+
+  }
+  @media (max-width:400px){
+    .wele{
+     margin-left:120px;
+    }
+    .list-style{
+      position:relative;
+      right:160px;
+    }
+   
+  }
+  
+
+
